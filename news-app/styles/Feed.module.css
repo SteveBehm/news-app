@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.post {
+  width: 500px;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid black;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post h1 {
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.post h1:hover {
+  color:blueviolet;
+}
+
+.post p {
+  font-size: .8rem;
+  line-height: 1rem;
+}
+
+.paginator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paginator div {
+  margin: 1.5rem;
+}
+
+.paginator .active {
+  cursor: pointer;
+}
+
+.paginator .active:hover {
+  color: blueviolet;
+}
+
+.paginator .disabled {
+  cursor: not-allowed;
+  color: rgb(179, 179, 179);
+}
